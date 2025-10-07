@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LIFT ZONE</title>
+  <link rel="icon" type="image/x-icon" href="../maturitni_projekt/LIFT.ico">
+  <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+<body>
+  <script src="script.js"></script>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#home" class="logo-link">
+          <img src="liftzone.png" alt="Logo" class="logo-img">
+        </a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#gallery">The Gym</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="banner">
+    <strong>Welcome to the <br>
+      LIFT ZONE</strong><br>
+    <span>A place where you elevate the weights<br>
+       And your lifestyle !</span>
+  </div>
+  <main>
+    <!-- Add this section where you want your programmes grid -->
+    <div class="home">
+      <section id="home">
+        <h2 class="gallery-title">Browse Our Programmes</h2>
+        <div class="programmes-grid">
+          <!-- Cardio -->
+          <div class="programme-card">
+            <img src="./images/jog.jfif" alt="Sprint/Jog">
+            <div class="programme-label">Sprint/Jog</div>
+          </div>
+          <div class="programme-card">
+            <img src="./images/jumping.jfif" alt="Jumping">
+            <div class="programme-label">Jumping</div>
+          </div>
+          <!-- Lifting -->
+          <div class="programme-card">
+            <img src="./images/dumbbell.jfif" alt="Dumbbels">
+            <div class="programme-label">Dumbbels</div>
+          </div>
+          <div class="programme-card">
+            <img src="./images/barbell.jfif" alt="Barbells">
+            <div class="programme-label">Barbells</div>
+          </div>
+          <!-- Sparring -->
+          <div class="programme-card">
+            <img src="./images/sparring.jfif" alt="Sparring">
+            <div class="programme-label">Sparring</div>
+          </div>
+          <div class="programme-card">
+            <img src="./images/mma.jfif" alt="MMA">
+            <div class="programme-label">MMA</div>
+          </div>
+          <!-- Wellness -->
+          <div class="programme-card">
+            <img src="./images/sauna.jfif" alt="Sauna">
+            <div class="programme-label">Sauna</div>
+          </div>
+          <div class="programme-card">
+            <img src="./images/relax.jfif" alt="Relax">
+            <div class="programme-label">Relax</div>
+          </div>
+        </div>
+
+
+    </div>
+    </div>
+    </section>
+    </div>
+    <div class="about-Us">
+      <section id="about-us">
+        <h2>Opening times, location and management</h2>
+        <div class="opening-times-container">
+          <div class="opening-card normal">
+            <h3>Normal Opening Times</h3>
+            <ul>
+              <li><strong>Monday - Friday:</strong> <strong>6:00 - 21:30</strong></li>
+              <li><strong>Saturday & Sunday (holidays):</strong> <strong>8:30 - 19:30</strong></li>
+            </ul>
+          </div>
+          <div class="opening-card holiday">
+            <h3>Holiday Opening Times</h3>
+            <ul>
+              <li><strong>Monday - Thursday:</strong> <strong>6:30 - 20:30</strong></li>
+              <li><strong>Friday:</strong> <strong>6:30 - 19:00</strong></li>
+              <li><strong>Saturday & Sunday:</strong> <strong>9:00 - 18:30</strong></li>
+            </ul>
+          </div>
+        </div>
+        <h1> Wondering where you'll find us ?</h1>
+        <h2>In Prague !<h2>
+            <h3>Easily accessible for everyone (living in or near Prague). Whether you're coming
+              from work or home, you'll find us conveniently situated to fit your schedule!</h3>
+            <div class="location-reservation">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d163850.2591395993!2d14.556473327583829!3d50.08328557567149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1scs!2scz!4v1759854995905!5m2!1scs!2scz"
+                width="810" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <form class="reservation-form">
+                <h3>Reservation</h3>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+                <button type="submit">Reserve</button>
+              </form>
+            </div>
+
+
+            <!-- Management Team (inside about-us section) -->
+            <h2>Meet Our Management Team</h2>
+            <div class="team-container">
+              <div class="team-member">
+                <img src="./images/female (1).jfif" alt="Emily Carter - Gym Manager">
+                <h3>Emily Carter</h3>
+                <p class="role">Gym Manager</p>
+                <p>Emily ensures smooth daily operations and a welcoming environment for all members.</p>
+              </div>
+              <div class="team-member">
+                <img src="./images/male (4).jfif" alt="James Lee - Head Trainer">
+                <h3>James Lee</h3>
+                <p class="role">Head Trainer</p>
+                <p>James leads our team of trainers and develops personalized fitness programs.</p>
+              </div>
+              <div class="team-member">
+                <img src="./images/female (2).jfif" alt="Sophia Turner - Wellness Coordinator">
+                <h3>Sophia Turner</h3>
+                <p class="role">Wellness Coordinator</p>
+                <p>Sophia organizes group classes and wellness events to keep our community active and engaged.</p>
+              </div>
+              <div class="team-member">
+                <img src="./images/male (3).jfif" alt="Michael Brown - Facilities Manager">
+                <h3>Michael Brown</h3>
+                <p class="role">Facilities Manager</p>
+                <p>Michael maintains our equipment and ensures the gym is always clean and safe.</p>
+              </div>
+              <div class="team-member">
+                <img src="./images/female (3).jfif" alt="Rachel Adams - Personal Trainer">
+                <h3>Rachel Adams</h3>
+                <p class="role">Personal Trainer</p>
+                <p>Rachel specializes in strength training and motivates members to reach their full potential.</p>
+              </div>
+              <div class="team-member">
+                <img src="./images/male (2).jfif" alt="Chris Evans - Group Fitness Instructor">
+                <h3>Chris Evans</h3>
+                <p class="role">Group Fitness Instructor</p>
+                <p>Chris brings energy and fun to every group class, making fitness enjoyable for everyone.</p>
+              </div>
+              <div class="team-member">
+                <img src="./images/female (4).jfif" alt="Olivia Smith - CEO">
+                <h3>Olivia Smith</h3>
+                <p class="role">Chief Executive Officer (CEO)</p>
+                <p>Olivia sets the vision and leads the growth of LIFT ZONE with passion and experience.</p>
+              </div>
+              <div class="team-member">
+                <img src="./images/male (1).jfif" alt="David Johnson - Co-CEO">
+                <h3>David Johnson</h3>
+                <p class="role">Co-Chief Executive Officer (Co-CEO)</p>
+                <p>David co-leads the company, focusing on innovation and member satisfaction.</p>
+              </div>
+            </div>
+            <!-- CEO and Co-CEO below the management team -->
+
+      </section>
+    </div>
+    <div class="pricing">
+      <section id="pricing">
+        <h2>Our Pricing</h2>
+        <div class="pricing-cards">
+          <div class="pricing-card">
+            <h3>Day Pass</h3>
+            <p class="price">10$</p>
+            <ul>
+              <li>All-day access</li>
+              <li>All equipment</li>
+            </ul>
+          </div>
+          <div class="pricing-card">
+            <h3>Monthly</h3>
+            <p class="price">40$</p>
+            <ul>
+              <li>Unlimited access</li>
+              <li>Free group classes</li>
+              <li>1 personal training session</li>
+            </ul>
+          </div>
+          <div class="pricing-card">
+            <h3>Annual</h3>
+            <p class="price">400$</p>
+            <ul>
+              <li>Unlimited access</li>
+              <li>Free group classes</li>
+              <li>Monthly nutrition consult</li>
+              <li>Sauna access</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="Contact">
+      <section id="contact">
+        <h2>Get in touch</h2>
+        <h3>Tell us your problems n' stuff !.</h3>
+        <form class="contact-form" method="post" autocomplete="off">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required placeholder="Your name">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required placeholder="your@email.com">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required placeholder="How can we help you?"></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </div>
+
+
+
+
+    <!-- Cardio Zone section -->
+    <section id="gallery">
+      <h1 class="gallery-title cardio-title">Cardio Zone</h1>
+      <div class="gallery">
+
+        <div class="gallery-item">
+          <a href="./images/cardio1.jfif">
+            <img src="./images/cardio1.jfif" width="600" height="400">
+          </a>
+        </div>
+
+        <div class="gallery-item">
+          <a href="./images/cardi3.jfif">
+            <img src="./images/cardio3.jfif" width="600" height="400">
+          </a>
+        </div>
+
+        <div class="gallery-item">
+          <a href="./images/cardio4.jfif">
+            <img src="./images/cardio4.jfif" width="600" height="400">
+          </a>
+        </div>
+
+        <div class="gallery-item">
+          <a href="./images/cardio6.jfif">
+            <img src="./images/cardio6.jfif" width="600" height="400">
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a href="./images/cardio7.jfif">
+            <img src="./images/cardio7.jfif" width="600" height="400">
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a href="./images/cardio5.jfif">
+            <img src="./images/cardio5.jfif" width="600" height="400">
+          </a>
+        </div>
+        <br>
+      </div>
+    </section>
+    <section id="gallery">
+      <!-- Lifting Zone section -->
+      <h1 class="gallery-title cardio-title">Lifting Zone</h1>
+
+      <div class="gallery">
+
+        <div class="gallery-item">
+          <a href="./images/weights (1).jfif">
+            <img src="./images/weights (1).jfif" width="600" height="400">
+          </a>
+        </div>
+
+        <div class="gallery-item">
+          <a href="./images/weights (5).jfif">
+            <img src="./images/weights (5).jfif" width="600" height="400">
+          </a>
+        </div>
+
+        <div class="gallery-item">
+          <a href="./images/weights (3).jfif">
+            <img src="./images/weights (3).jfif" width="600" height="400">
+          </a>
+        </div>
+
+        <div class="gallery-item">
+          <a href="./images/weights (7).jfif">
+            <img src="./images/weights (7).jfif" width="600" height="400">
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a href="./images/weights (2).jfif">
+            <img src="./images/weights (2).jfif" width="600" height="400">
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a href="./images/weights (4).jfif">
+            <img src="./images/weights (4).jfif" width="600" height="400">
+          </a>
+        </div>
+        <br>
+      </div>
+
+
+    </section>
+    <section id="gallery">
+      <!-- Sparring Zone section -->
+      <h1 class="gallery-title cardio-title">Sparring Zone</h1>
+
+      <div class="gallery">
+
+        <div class="gallery-item">
+          <a href="./images/sparring (1).jfif">
+            <img src="./images/sparring (1).jfif" width="600" height="400">
+          </a>
+        </div>
+
+        <div class="gallery-item">
+          <a href="./images/sparring (2).jfif">
+            <img src="./images/sparring (2).jfif" width="600" height="400">
+          </a>
+        </div>
+
+        <div class="gallery-item">
+          <a href="./images/sparring (3).jfif ">
+            <img src="./images/sparring (3).jfif" width="600" height="400">
+          </a>
+        </div>
+
+        <div class="gallery-item">
+          <a href="./images/sparring (7).jfif">
+            <img src="./images/sparring (7).jfif" width="600" height="400">
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a href="./images/sparring (5).jfif">
+            <img src="./images/sparring (5).jfif" width="600" height="400">
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a href="./images/sparring (6).jfif">
+            <img src="./images/sparring (6).jfif" width="600" height="400">
+          </a>
+        </div>
+        <br>
+      </div>
+
+
+    </section>
+    <section id="gallery">
+
+      <h1 class="gallery-title cardio-title">Wellness Zone</h1>
+
+      <div class="gallery">
+
+        <div class="gallery-item">
+          <a href="./images/wellness (8).jfif">
+            <img src="./images/wellness (8).jfif" width="600" height="400">
+          </a>
+        </div>
+
+        <div class="gallery-item">
+          <a href="./images/wellness (2).jfif">
+            <img src="./images/wellness (2).jfif" width="600" height="400">
+          </a>
+        </div>
+
+        <div class="gallery-item">
+          <a href="./images/wellness (4).jfif">
+            <img src="./images/wellness (4).jfif" width="600" height="400">
+          </a>
+        </div>
+
+        <div class="gallery-item">
+          <a href="./images/wellness (5).jfif">
+            <img src="./images/wellness (5).jfif" width="600" height="400">
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a href="./images/wellness (1).jfif">
+            <img src="./images/wellness (1).jfif" width="600" height="400">
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a href="./images/wellness (7).jfif">
+            <img src="./images/wellness (7).jfif" width="600" height="400">
+          </a>
+        </div>
+        <br>
+      </div>
+
+
+    </section>
+    </div>
+  </main>
+
+
+
+  <footer>
+    <div class="footer-content">
+      <p class="footer-slogan">Lift more than just dumbbells...</p>
+      <p>&copy; 2025 LIFT ZONE. All rights reserved.</p>
+    </div>
+    <button id="toTopBtn" title="Go to top">↑</button>
+  </footer>
+
+
+</body>
+
+</html>
